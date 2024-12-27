@@ -1,0 +1,155 @@
+comment_char %
+escape_char /
+
+% This File is NOT part of the GNU C Library.  It is NOT affiliated
+% with the Free Software Foundation in any way.  It contains locale
+% data originally written for private use by the Author of this
+% File, malijaffri.  As such, it is provided AS IS, and the Author
+% holds NO liability for any other use of this File.  This File is
+% Copyright of malijaffri, 2024.  It is released under the BSD
+% 3-Clause License, a copy of which is also provided.  Anyone may
+% use this File, with or without modification, provided that they
+% uphold the terms outlined in the aforementioned License.
+
+% English locale for Pakistan
+% Author:           malijaffri
+% Email:            malijaffri@proton.me
+% Language:         en
+% Territory:        PK
+% Revision:         1.0
+% Original Date:    2024-12-27
+% Revision Date:    2024-12-27
+
+LC_IDENTIFICATION
+title       "English locale for Pakistan"
+source      "malijaffri"
+address     ""
+contact     "malijaffri"
+email       "malijaffri@proton.me"
+tel         ""
+fax         ""
+language    "Pakistani English"
+territory   "Pakistan"
+revision    "1.0"
+date        "2024-12-27"
+
+category    "i18n:2012";LC_IDENTIFICATION
+category    "i18n:2012";LC_CTYPE
+category    "i18n:2012";LC_COLLATE
+category    "i18n:2012";LC_TIME
+category    "i18n:2012";LC_NUMERIC
+category    "i18n:2012";LC_MONETARY
+category    "i18n:2012";LC_MESSAGES
+category    "i18n:2012";LC_PAPER
+category    "i18n:2012";LC_NAME
+category    "i18n:2012";LC_ADDRESS
+category    "i18n:2012";LC_TELEPHONE
+category    "i18n:2012";LC_MEASUREMENT
+END LC_IDENTIFICATION
+
+LC_CTYPE
+copy    "en_GB"
+END LC_CTYPE
+
+LC_COLLATE
+copy    "en_GB"
+END LC_COLLATE
+
+LC_MONETARY
+int_curr_symbol     "PKR "
+currency_symbol     "Rs "
+mon_decimal_point   "."
+mon_thousands_sep   ","
+mon_grouping        3;3
+positive_sign       ""
+negative_sign       "-"
+int_frac_digits     2
+frac_digits         2
+p_cs_precedes       1
+p_sep_by_space      0
+n_cs_precedes       1
+n_sep_by_space      0
+p_sign_posn         1
+n_sign_posn         1
+END LC_MONETARY
+
+LC_NUMERIC
+decimal_point   "."
+thousands_sep   ","
+grouping        3;3
+END LC_NUMERIC
+
+LC_TIME
+abday           "Sun";"Mon";/
+                "Tue";"Wed";/
+                "Thu";"Fri";/
+                "Sat"
+day             "Sunday";/
+                "Monday";/
+                "Tuesday";/
+                "Wednesday";/
+                "Thursday";/
+                "Friday";/
+                "Saturday"
+abmon           "Jan";"Feb";/
+                "Mar";"Apr";/
+                "May";"Jun";/
+                "Jul";"Aug";/
+                "Sep";"Oct";/
+                "Nov";"Dec"
+mon             "January";/
+                "February";/
+                "March";/
+                "April";/
+                "May";/
+                "June";/
+                "July";/
+                "August";/
+                "September";/
+                "October";/
+                "November";/
+                "December"
+d_t_fmt         "%a %d %b %Y %r %Z"
+d_fmt           "%d//%m//%y"
+t_fmt           "%r"
+am_pm           "am";"pm"
+t_fmt_ampm      "%l:%M:%S %P"
+date_fmt        "%c"
+week            7;19971130;4
+first_weekday   2
+END LC_TIME
+
+LC_MESSAGES
+copy    "en_GB"
+END LC_MESSAGES
+
+LC_PAPER
+copy    "en_GB"
+END LC_PAPER
+
+LC_TELEPHONE
+tel_int_fmt "+%c ;%a ;%l"
+int_select  "00"
+int_prefix  "92"
+END LC_TELEPHONE
+
+LC_MEASUREMENT
+copy    "en_GB"
+END LC_MEASUREMENT
+
+LC_NAME
+copy    "en_GB"
+END LC_NAME
+
+LC_ADDRESS
+postal_fmt      "%a%N%f%N%d%N%b%N%h %s %e %r%N%T %z%N%c%N"
+country_name    "Pakistan"
+country_ab2     "PK"
+country_ab3     "PAK"
+country_num     586
+country_car     "PK"
+lang_name       "English"
+lang_ab         "en"
+lang_term       "eng"
+lang_lib        "eng"
+END LC_ADDRESS
